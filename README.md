@@ -1,0 +1,1 @@
+A program with the aim of assisting players of the hungarian card game "Snapszer", with calculating probabilites of certain cards and colors being in the opponents hands. Eventually, it may be able to suggest the best possible moves to play each turn.
