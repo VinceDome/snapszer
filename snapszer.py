@@ -54,7 +54,7 @@ while True:
     try:
         starter = int(input("Ki kezd?\n0 = te /// 1 = ellenfél "))
         if starter not in [0, 1]:
-            raise "gecó"
+            raise "xddd"
         break
     except:
         print("lmao no")
@@ -101,7 +101,7 @@ def SpecificColor(color):
     N = len(unseen)
     n = 5-len(opponentCards)
 
-    print("szex", count, N, n)
+    print(count, N, n)
     p = 1-(math.comb(N-count, n)/math.comb(N, n))
     return str(round(p*100))+"%"
 
